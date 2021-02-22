@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*colores*/
+/*background*/
+/*tamaños y posiciones*/
+/*imagenes*/
+/* otros */
+body {
+  color: rgba(166, 231, 247, 0.714);
+  background-image: url("../img/piedras.jpg");
+  background-repeat: no-repeat;
+  opacity: 1;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img {
+  opacity: 0.2;
+}
+
+nav {
+  color: rgba(75, 107, 165, 0.824);
+}
+
+div {
+  float: left;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  max-width: 100%;
+  border: 1px solid #260a01;
+  box-shadow: 1px 1px 5px #08023b;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  width: 700px;
+  height: 100px;
+  background-color: rgba(75, 107, 165, 0.824);
+  box-shadow: 1px 1px 5px #08023b;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  opacity: 1;
+  margin: 30px;
+}
+
+span {
+  text-align: center;
+}
+
+a {
+  color: rgba(166, 231, 247, 0.714);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #264097;
+}
+
+img {
+  opacity: 0.2;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+.mtop250 {
+  margin-top: 250px;
+}
+
+.talignc {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

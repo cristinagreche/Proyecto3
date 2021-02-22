@@ -1,0 +1,110 @@
+/*colores*/
+$primary:       rgba(166, 231, 247, 0.714) !default;
+$secondary:     rgba(75, 107, 165, 0.824) !default;
+$tercero:       rgb(38, 64, 151) !default;
+
+/*background*/
+$fondo:         url('../img/piedras.jpg') !default;
+$bgnr:          no-repeat !default;
+$bgattf:        fixed !default;
+$bgsizec:       cover !default;
+
+/*tamaños y posiciones*/
+$mw100:         100% !default;
+$w500:          500px !default;
+$w700:          700px !default;
+$w900:          900px !default;
+$h100:          100px !default;
+$fsize25:       25px !default;
+$fsize50:       50px !default;
+$talignc:       center !default;
+$talignj:       justify !default;
+$mtop250:       250px !default;
+$margin30:      30px !default;
+$fleft:         left !default;
+
+/*imagenes*/
+$imgfondo:         url('../img/piedras.jpg') !default;
+$bshadow:       1px 1px 5px rgb(8, 2, 59) !default;
+$b1soli:        1px solid rgb(38, 10, 1) !default;
+$brad10:        10px !default;
+$opac1:         1 !default;
+$opac08:        0.8 !default;
+$opac05:        0.5 !default;
+$opac02:        0.2 !default;
+
+/* otros */
+$tdecn:         none !default;
+$lstyn:         none !default;
+$ffamL:         'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !default;
+
+
+
+
+
+body{
+    
+    color: $primary;
+    background-image: $fondo;
+    background-repeat: $bgnr;
+    opacity: $opac1;
+    max-width: $mw100;
+    background-attachment: $bgattf;
+    background-size: $bgsizec;
+    font-size: $fsize25;
+    font-family: $ffamL;
+}
+img{
+    opacity:$opac02;
+    
+}
+nav{
+    color: $secondary;
+}
+div{
+    float: $fleft;
+    text-align: $talignc;  
+}
+li{
+    list-style: $lstyn;
+}
+header{
+    max-width: $mw100;
+    border: $b1soli;
+    box-shadow: $bshadow;
+    font-family: $ffamL;
+}
+.btn{
+    width: $w700;
+    height: $h100;
+    background-color: $secondary;
+    box-shadow: $bshadow;
+    font-size: $fsize50;
+    font-family: $ffamL;
+    opacity: $opac1;
+    margin: $margin30;
+}
+span{
+    text-align: $talignc;
+}
+a{
+    color: $primary;
+    text-decoration: $tdecn;
+}
+a:hover{
+    color: $tercero;
+}
+img {
+    opacity: $opac02;
+  }
+  
+img:hover {
+    opacity: $opac1;
+  }
+.mtop250{
+    margin-top: $mtop250;
+}
+.talignc{
+    text-align: $talignc;
+}
+
